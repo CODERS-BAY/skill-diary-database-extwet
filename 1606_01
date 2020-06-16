@@ -1,0 +1,17 @@
+Datenbankverwaltungssystem DBMS, können lokal oder auf Servern sein
+Benutzer - Benutzeroberfläche - Applikation(Programm) DBMS - Datenbank
+Datenbanken sind zweisimensionale, aus Zeilen und Spalten bestehende Anordnungen von Feldern die nur Einträge EINES
+Typs von Datenwerten und keine identischen Zeilen enthalten kann.Jede Zelle darf nur einen Wert enthalten, keine zwei Zellen dürfen identisch sein.
+Es gibt DDL, DML, DCL Sprachen von SQL
+textuelle Notation
+Student (MatrNr:INTEGER, Name:VARCHAR,Semester:TINYINT....)
+Jeses Objekt hat Primärschlüssel = unterstrichen
+Mehrere Objekte in Beziehung setzen Student----prüfen----Professor; Professor---prüft---Student
+BINÄRE Beziehung = wichtige Beziehung
+UNÄRE Beziehung = Unterscheide in Grade
+TERNÄRE Beziehung  = ein Student bei dem einen Professor hat ein Seminarthema, das Seminarthema hat der Professor bei mehreren Studenten
+#TEXT Kardinalitäten:
+1:N Mutter---hat---Kind 
+1:1 ein Auto----hat----einen Besitzer
+M:N Student--- hat ----Professor
+!!!!! beim lesen immer in Einzahl lesen, von hinten ebenso wie von vorne
